@@ -11,7 +11,7 @@
         "client": "npm start --prefix client",
         "watch": "npm run server & npm run client",
         "deploy": "npm run build --prefix client && npm start --prefix server",
-        "test": "npm run test --prefix server && npm run test --prefix client"
+        "test": "npm test --prefix server && npm test --prefix client"
     },
     "repository": {
         "type": "git",
@@ -23,5 +23,9 @@
     "bugs": {
         "url": "https://github.com/Parikhit/nasa-dashboard/issues"
     },
-    "homepage": "https://github.com/Parikhit/nasa-dashboard#readme"
+    "homepage": "https://github.com/Parikhit/nasa-dashboard#readme",
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^6.3.4"
+    }
 }
