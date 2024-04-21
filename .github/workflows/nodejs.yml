@@ -1,4 +1,4 @@
-name: NASA Project CI
+name: NASA Dashboard CI
 on:
     push:
         branches: [master]
