@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
     cors({
-        origin: 'https://nasa-dashboard.vercel.app/',
+        origin: 'https://nasa-dashboard.vercel.app',
     })
 );
 
