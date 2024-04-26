@@ -1,5 +1,5 @@
 // const API_URL = 'http://localhost:8000/v1';
-const API_URL = process.env.API_URL;
+const API_URL = 'https://nasa-dashboard-api.onrender.com/v1';
 
 // Load planets and return as JSON.
 async function httpGetPlanets() {
